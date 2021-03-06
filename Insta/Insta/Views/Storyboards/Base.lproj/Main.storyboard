@@ -25,10 +25,10 @@
             </objects>
             <point key="canvasLocation" x="-2117" y="123"/>
         </scene>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="E3H-il-DdE">
             <objects>
-                <viewController id="QGZ-3S-JVQ" sceneMemberID="viewController">
+                <viewController id="QGZ-3S-JVQ" customClass="HomeViewController" customModule="Insta" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4Wu-uW-wdo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -41,10 +41,10 @@
             </objects>
             <point key="canvasLocation" x="-2117" y="826"/>
         </scene>
-        <!--View Controller-->
+        <!--Profile View Controller-->
         <scene sceneID="cDS-Ff-YeC">
             <objects>
-                <viewController id="CMm-nk-lfd" sceneMemberID="viewController">
+                <viewController id="CMm-nk-lfd" customClass="ProfileViewController" customModule="Insta" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gy7-uf-ggE">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -57,10 +57,10 @@
             </objects>
             <point key="canvasLocation" x="587" y="826"/>
         </scene>
-        <!--View Controller-->
+        <!--Notification View Controller-->
         <scene sceneID="fah-6a-7To">
             <objects>
-                <viewController id="Prf-Fm-kY3" sceneMemberID="viewController">
+                <viewController id="Prf-Fm-kY3" customClass="NotificationViewController" customModule="Insta" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="x0G-kv-xD6">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -73,10 +73,10 @@
             </objects>
             <point key="canvasLocation" x="-84" y="826"/>
         </scene>
-        <!--View Controller-->
+        <!--Camera View Controller-->
         <scene sceneID="WR7-cM-EIH">
             <objects>
-                <viewController id="dW7-KW-oGP" sceneMemberID="viewController">
+                <viewController id="dW7-KW-oGP" customClass="CameraViewController" customModule="Insta" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ay9-Nh-qZi">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -89,10 +89,10 @@
             </objects>
             <point key="canvasLocation" x="-752" y="826"/>
         </scene>
-        <!--View Controller-->
+        <!--Explore View Controller-->
         <scene sceneID="ZZt-OK-ero">
             <objects>
-                <viewController id="qdo-gr-TSV" sceneMemberID="viewController">
+                <viewController id="qdo-gr-TSV" customClass="Explore_ViewController" customModule="Insta" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pKE-kC-8Tv">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

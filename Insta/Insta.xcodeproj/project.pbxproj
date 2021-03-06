@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20992E1F25F3FEEF005DEE48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20992E1E25F3FEEF005DEE48 /* AppDelegate.swift */; };
+		20992E2125F3FEEF005DEE48 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20992E2025F3FEEF005DEE48 /* SceneDelegate.swift */; };
+		20992E2325F3FEEF005DEE48 /* HomeViewConrtoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20992E2225F3FEEF005DEE48 /* HomeViewConrtoller.swift */; };
+		20992E2625F3FEEF005DEE48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20992E2425F3FEEF005DEE48 /* Main.storyboard */; };
+		20992E2825F3FEF0005DEE48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20992E2725F3FEF0005DEE48 /* Assets.xcassets */; };
+		20992E2B25F3FEF0005DEE48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20992E2925F3FEF0005DEE48 /* LaunchScreen.storyboard */; };
+		20992E3B25F4014F005DEE48 /* Explore ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20992E3A25F4014F005DEE48 /* Explore ViewController.swift */; };
+		20992E3E25F40175005DEE48 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20992E3D25F40175005DEE48 /* CameraViewController.swift */; };
+		20992E4125F40186005DEE48 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20992E4025F40186005DEE48 /* NotificationViewController.swift */; };
+		20992E4425F4019F005DEE48 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20992E4325F4019F005DEE48 /* ProfileViewController.swift */; };
+		20992E4C25F40252005DEE48 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20992E4B25F40252005DEE48 /* LoginViewController.swift */; };
+		20992E4F25F4025D005DEE48 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20992E4E25F4025D005DEE48 /* RegistrationViewController.swift */; };
+		20992E5225F402A8005DEE48 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20992E5125F402A8005DEE48 /* PostViewController.swift */; };
+		20992E5525F402C5005DEE48 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20992E5425F402C5005DEE48 /* EditProfileViewController.swift */; };
+		20992E5825F402D4005DEE48 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20992E5725F402D4005DEE48 /* SettingsViewController.swift */; };
+		20992E5B25F402E5005DEE48 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20992E5A25F402E5005DEE48 /* ListViewController.swift */; };
+		20992E5E25F402F1005DEE48 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20992E5D25F402F1005DEE48 /* SearchViewController.swift */; };
+		20992E6125F402FC005DEE48 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20992E6025F402FC005DEE48 /* SearchResultsViewController.swift */; };
+		20992E6425F4032F005DEE48 /* PublishPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20992E6325F4032F005DEE48 /* PublishPostViewController.swift */; };
+		20992E6725F4034F005DEE48 /* PostEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20992E6625F4034F005DEE48 /* PostEditorViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20992E1B25F3FEEF005DEE48 /* Insta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Insta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20992E1E25F3FEEF005DEE48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		20992E2025F3FEEF005DEE48 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		20992E2225F3FEEF005DEE48 /* HomeViewConrtoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewConrtoller.swift; sourceTree = "<group>"; };
+		20992E2525F3FEEF005DEE48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20992E2725F3FEF0005DEE48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20992E2A25F3FEF0005DEE48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20992E2C25F3FEF0005DEE48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20992E3A25F4014F005DEE48 /* Explore ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Explore ViewController.swift"; sourceTree = "<group>"; };
+		20992E3D25F40175005DEE48 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		20992E4025F40186005DEE48 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		20992E4325F4019F005DEE48 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		20992E4B25F40252005DEE48 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		20992E4E25F4025D005DEE48 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		20992E5125F402A8005DEE48 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		20992E5425F402C5005DEE48 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		20992E5725F402D4005DEE48 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		20992E5A25F402E5005DEE48 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		20992E5D25F402F1005DEE48 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		20992E6025F402FC005DEE48 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
+		20992E6325F4032F005DEE48 /* PublishPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishPostViewController.swift; sourceTree = "<group>"; };
+		20992E6625F4034F005DEE48 /* PostEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostEditorViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20992E1825F3FEEF005DEE48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20992E1225F3FEEF005DEE48 = {
+			isa = PBXGroup;
+			children = (
+				20992E1D25F3FEEF005DEE48 /* Insta */,
+				20992E1C25F3FEEF005DEE48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20992E1C25F3FEEF005DEE48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20992E1B25F3FEEF005DEE48 /* Insta.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20992E1D25F3FEEF005DEE48 /* Insta */ = {
+			isa = PBXGroup;
+			children = (
+				20992E3725F3FFF9005DEE48 /* Resources */,
+				20992E3625F3FFF1005DEE48 /* Models */,
+				20992E3525F3FFEC005DEE48 /* Views */,
+				20992E3425F3FFE2005DEE48 /* Controllers */,
+				20992E2C25F3FEF0005DEE48 /* Info.plist */,
+			);
+			path = Insta;
+			sourceTree = "<group>";
+		};
+		20992E3425F3FFE2005DEE48 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				20992E4925F4022C005DEE48 /* Other */,
+				20992E4625F401B2005DEE48 /* Core Tabs */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		20992E3525F3FFEC005DEE48 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				20992E3825F40040005DEE48 /* Storyboards */,
+				20992E2725F3FEF0005DEE48 /* Assets.xcassets */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		20992E3625F3FFF1005DEE48 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		20992E3725F3FFF9005DEE48 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				20992E1E25F3FEEF005DEE48 /* AppDelegate.swift */,
+				20992E2025F3FEEF005DEE48 /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		20992E3825F40040005DEE48 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				20992E2425F3FEEF005DEE48 /* Main.storyboard */,
+				20992E2925F3FEF0005DEE48 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		20992E4625F401B2005DEE48 /* Core Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				20992E2225F3FEEF005DEE48 /* HomeViewConrtoller.swift */,
+				20992E3A25F4014F005DEE48 /* Explore ViewController.swift */,
+				20992E3D25F40175005DEE48 /* CameraViewController.swift */,
+				20992E4025F40186005DEE48 /* NotificationViewController.swift */,
+				20992E4325F4019F005DEE48 /* ProfileViewController.swift */,
+			);
+			path = "Core Tabs";
+			sourceTree = "<group>";
+		};
+		20992E4925F4022C005DEE48 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				20992E4A25F4023F005DEE48 /* Onboarding */,
+				20992E5125F402A8005DEE48 /* PostViewController.swift */,
+				20992E5425F402C5005DEE48 /* EditProfileViewController.swift */,
+				20992E5725F402D4005DEE48 /* SettingsViewController.swift */,
+				20992E5A25F402E5005DEE48 /* ListViewController.swift */,
+				20992E5D25F402F1005DEE48 /* SearchViewController.swift */,
+				20992E6025F402FC005DEE48 /* SearchResultsViewController.swift */,
+				20992E6325F4032F005DEE48 /* PublishPostViewController.swift */,
+				20992E6625F4034F005DEE48 /* PostEditorViewController.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		20992E4A25F4023F005DEE48 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				20992E4B25F40252005DEE48 /* LoginViewController.swift */,
+				20992E4E25F4025D005DEE48 /* RegistrationViewController.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20992E1A25F3FEEF005DEE48 /* Insta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20992E2F25F3FEF0005DEE48 /* Build configuration list for PBXNativeTarget "Insta" */;
+			buildPhases = (
+				20992E1725F3FEEF005DEE48 /* Sources */,
+				20992E1825F3FEEF005DEE48 /* Frameworks */,
+				20992E1925F3FEEF005DEE48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Insta;
+			productName = Insta;
+			productReference = 20992E1B25F3FEEF005DEE48 /* Insta.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20992E1325F3FEEF005DEE48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					20992E1A25F3FEEF005DEE48 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 20992E1625F3FEEF005DEE48 /* Build configuration list for PBXProject "Insta" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20992E1225F3FEEF005DEE48;
+			productRefGroup = 20992E1C25F3FEEF005DEE48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20992E1A25F3FEEF005DEE48 /* Insta */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20992E1925F3FEEF005DEE48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20992E2B25F3FEF0005DEE48 /* LaunchScreen.storyboard in Resources */,
+				20992E2825F3FEF0005DEE48 /* Assets.xcassets in Resources */,
+				20992E2625F3FEEF005DEE48 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20992E1725F3FEEF005DEE48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20992E5525F402C5005DEE48 /* EditProfileViewController.swift in Sources */,
+				20992E2325F3FEEF005DEE48 /* HomeViewConrtoller.swift in Sources */,
+				20992E3E25F40175005DEE48 /* CameraViewController.swift in Sources */,
+				20992E4125F40186005DEE48 /* NotificationViewController.swift in Sources */,
+				20992E6725F4034F005DEE48 /* PostEditorViewController.swift in Sources */,
+				20992E6125F402FC005DEE48 /* SearchResultsViewController.swift in Sources */,
+				20992E4F25F4025D005DEE48 /* RegistrationViewController.swift in Sources */,
+				20992E6425F4032F005DEE48 /* PublishPostViewController.swift in Sources */,
+				20992E5225F402A8005DEE48 /* PostViewController.swift in Sources */,
+				20992E3B25F4014F005DEE48 /* Explore ViewController.swift in Sources */,
+				20992E4C25F40252005DEE48 /* LoginViewController.swift in Sources */,
+				20992E5E25F402F1005DEE48 /* SearchViewController.swift in Sources */,
+				20992E4425F4019F005DEE48 /* ProfileViewController.swift in Sources */,
+				20992E1F25F3FEEF005DEE48 /* AppDelegate.swift in Sources */,
+				20992E2125F3FEEF005DEE48 /* SceneDelegate.swift in Sources */,
+				20992E5B25F402E5005DEE48 /* ListViewController.swift in Sources */,
+				20992E5825F402D4005DEE48 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		20992E2425F3FEEF005DEE48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20992E2525F3FEEF005DEE48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20992E2925F3FEF0005DEE48 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20992E2A25F3FEF0005DEE48 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20992E2D25F3FEF0005DEE48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		20992E2E25F3FEF0005DEE48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20992E3025F3FEF0005DEE48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Insta/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bachiero.Insta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20992E3125F3FEF0005DEE48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Insta/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bachiero.Insta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20992E1625F3FEEF005DEE48 /* Build configuration list for PBXProject "Insta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20992E2D25F3FEF0005DEE48 /* Debug */,
+				20992E2E25F3FEF0005DEE48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20992E2F25F3FEF0005DEE48 /* Build configuration list for PBXNativeTarget "Insta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20992E3025F3FEF0005DEE48 /* Debug */,
+				20992E3125F3FEF0005DEE48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20992E1325F3FEEF005DEE48 /* Project object */;
+}

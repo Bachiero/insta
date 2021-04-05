@@ -6,12 +6,18 @@
 //
 
 import UIKit
+import SVProgressHUD
 
 class HomeViewController: UIViewController {
 
+  
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+//        SVProgressHUD.setDefaultMaskType(.black)
+//        SVProgressHUD.show(withStatus: "just a second..")
+        
     }
 
 

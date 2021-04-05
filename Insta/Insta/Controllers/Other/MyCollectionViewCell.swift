@@ -1,0 +1,26 @@
+//
+//  MyCollectionViewCell.swift
+//  Insta
+//
+//  Created by Bacho Bitsadze on 15.03.21.
+//
+
+import UIKit
+
+class MyCollectionViewCell: UICollectionViewCell {
+
+    @IBOutlet var imageView: UIImageView!
+    static let identifier = "MyCollectionViewCell"
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        // Initialization code
+    }
+    public func configure(with image: UIImage) {
+        imageView.image = image
+    }
+    static func nib()-> UINib{
+        return UINib(nibName: "MycollectionViewCell", bundle: nil)
+    }
+
+}
